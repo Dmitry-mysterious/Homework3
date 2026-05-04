@@ -159,14 +159,14 @@ void main() {
     int amountMoneyKris = 76230;
 
     // 10% от дохода
-    int PercentMasha = amountMoneyMasha * 10 / 100;
-    int PercentDenis = amountMoneyDenis * 10 / 100;
-    int PercentKris = amountMoneyKris * 10 / 100;
+    int percentMasha = amountMoneyMasha * 10 / 100;
+    int percentDenis = amountMoneyDenis * 10 / 100;
+    int percentKris = amountMoneyKris * 10 / 100;
 
     // ЗП каждого с повышением на 10%
-    int moneyMashaWithPer = amountMoneyMasha + PercentMasha;
-    int moneyDenisWithPer = amountMoneyDenis + PercentDenis;
-    int moneyKrisWithPer = amountMoneyKris + PercentKris;
+    int moneyMashaWithPer = amountMoneyMasha + percentMasha;
+    int moneyDenisWithPer = amountMoneyDenis + percentDenis;
+    int moneyKrisWithPer = amountMoneyKris + percentKris;
 
     // Годовой доход до повышения
     int moneyMashaForYear = amountMoneyMasha * 12;
