@@ -5,7 +5,7 @@ void main() {
     int intNum = 10000;
     byte byteNum = 127;
     short shortNum = 32000;
-    long longNum = 100000;
+    long longNum = 100000L;
     float floatNum = 32.454f;
     double doubleNum = 32.443223449;
 
